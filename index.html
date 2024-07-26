@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harshit's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about-me.css" />
+    <link rel="stylesheet" href="css/toggle-button.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+  </head>
+  <body>
+    <div id="particles-js"></div>
+
+    <header>
+      <nav id="creative-nav">
+        <div class="nav-center">
+          <div class="nav-logo">
+            <svg viewBox="0 0 100 100" class="logo">
+              <defs>
+                <linearGradient
+                  id="gradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop offset="0%" style="stop-color: #4e54c8" />
+                  <stop offset="100%" style="stop-color: #8f94fb" />
+                </linearGradient>
+              </defs>
+              <circle cx="50" cy="50" r="45" fill="url(#gradient)" />
+              <text
+                x="50"
+                y="50"
+                text-anchor="middle"
+                dy=".3em"
+                fill="#fff"
+                font-size="40"
+              >
+                H
+              </text>
+            </svg>
+          </div>
+          <nav id="nav-items">
+            <a href="#about" class="nav-item">About Me</a>
+            <a href="#project" class="nav-item">Project</a>
+            <a href="#skills" class="nav-item">Skills</a>
+            <a href="#about" class="nav-item">Experience</a>
+          </nav>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="banner">
+        <div class="content">
+          <h1>Harshit Savani</h1>
+          <p>Web Developer & Problem Solver</p>
+          <div class="cta">
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn">Contact Me</a>
+          </div>
+        </div>
+      </section>
+      <div class="toggle-container">
+        <input type="checkbox" id="toggle-switch" class="toggle-switch" />
+        <label for="toggle-switch" class="toggle-label"></label>
+      </div>
+
+      <!-- <div class="section-transition"></div> -->
+      <section id="about-me" class="about-me-section">
+        <div class="particles-overlay"></div>
+        <div class="design-element left-top"></div>
+        <div class="design-element right-bottom"></div>
+        <div class="content-container">
+          <h2 class="section-title">About Me</h2>
+          <div class="profile-container">
+            <div class="profile-photo">
+              <img src="path-to-your-photo.jpg" alt="Your Name" />
+            </div>
+            <div class="profile-text">
+              <p class="intro-text">
+                I'm a front-end developer passionate about crafting engaging web
+                experiences with JavaScript and React. Committed to lifelong
+                learning, I thrive on the ever-evolving challenges of web
+                development.
+              </p>
+              <p class="approach-text">
+                My approach combines creativity and logic, resulting in
+                user-centric designs and efficient code.
+              </p>
+              <p class="hobby-text">
+                When I'm not coding, you'll find me editing photos and videos or
+                playing table tennis – activities that sharpen my focus and
+                creativity.
+              </p>
+              <p class="cta-text">
+                I'm always excited to take on new projects that push the
+                boundaries of web technology. Let's build something amazing
+                together!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/about-me.js"></script>
+    <script src="js/toggle-button.js"></script>
+  </body>
+</html>
