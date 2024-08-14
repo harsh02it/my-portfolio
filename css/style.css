@@ -213,3 +213,23 @@ html {
   position: relative;
   z-index: 10;
 }
+
+.particle {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: float 20s infinite linear;
+  transition: background-color 0.5s ease;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+  }
+}

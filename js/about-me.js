@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     colors[currentColorIndex].bg === "#ffffff" ? "black" : "white";
 
   // Create initial particles
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 5; i++) {
     createParticle(particleColor);
   }
 
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Remove existing particles
     particlesOverlay.innerHTML = "";
     // Create new particles with updated color
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 5; i++) {
       createParticle(particleColor);
     }
   }

@@ -40,18 +40,6 @@
   transition: background 0.5s ease;
 }
 
-.left-top {
-  top: -150px;
-  left: -150px;
-  background: radial-gradient(circle, var(--accent-color), transparent 70%);
-}
-
-.right-bottom {
-  bottom: -150px;
-  right: -150px;
-  background: radial-gradient(circle, var(--secondary-accent), transparent 70%);
-}
-
 .content-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -129,25 +117,5 @@
   .profile-container {
     flex-direction: column;
     text-align: center;
-  }
-}
-
-.particle {
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  background: var(--accent-color);
-  border-radius: 50%;
-  pointer-events: none;
-  animation: float 20s infinite linear;
-  transition: background-color 0.5s ease;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0) rotate(0deg);
-  }
-  100% {
-    transform: translateY(-100vh) rotate(360deg);
   }
 }
