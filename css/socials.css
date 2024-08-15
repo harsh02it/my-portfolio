@@ -1,0 +1,91 @@
+:root {
+  --bg-color: #f8f9fa;
+  --text-color: #333333;
+  --accent-color: #4a90e2;
+  --secondary-accent: #d9e1e8;
+  --github-color: #333333;
+  --linkedin-color: #0077b5;
+  --instagram-color: #e4405f;
+}
+
+body.dark-theme {
+  --bg-color: #0f0f0f;
+  --text-color: #000000;
+  --accent-color: #ff5722;
+  --secondary-accent: #33334d;
+}
+
+.socials-section {
+  text-align: center;
+  padding: 80px 0;
+  background-color: var(--bg-color);
+}
+
+.socials-section h2 {
+  color: var(--text-color);
+}
+
+.socials-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: var(--secondary-accent);
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-link i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.social-link:hover {
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.social-link.github {
+  background-color: var(--github-color);
+  color: #ffffff;
+}
+
+.social-link.linkedin {
+  background-color: var(--linkedin-color);
+}
+
+.social-link.instagram {
+  background-color: var(--instagram-color);
+}
+
+.social-link.github:hover {
+  background-color: #ffffff;
+  color: var(--github-color);
+}
+
+.social-link.linkedin:hover {
+  background-color: var(--linkedin-color);
+  color: #ffffff;
+}
+
+.social-link.instagram:hover {
+  background-color: var(--instagram-color);
+  color: #ffffff;
+}
+
+.social-link span {
+  font-weight: bold;
+  font-size: 16px;
+}
