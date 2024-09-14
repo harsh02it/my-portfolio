@@ -4,18 +4,6 @@
   background-color: #f8f9fa;
 }
 
-#skills h2 {
-  color: #6c55a8;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-#skills h1 {
-  color: #333;
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-}
-
 .skills-container {
   display: flex;
   justify-content: center;

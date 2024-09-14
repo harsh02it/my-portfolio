@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Harshit's Portfolio</title>
+    <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/about-me.css" />
-    <link rel="stylesheet" href="css/toggle-button.css" />
     <link rel="stylesheet" href="css/skills.css" />
     <link rel="stylesheet" href="css/project.css" />
     <link rel="stylesheet" href="css/socials.css" />
@@ -71,12 +71,7 @@
           </div>
         </div>
       </section>
-      <div class="toggle-container">
-        <input type="checkbox" id="toggle-switch" class="toggle-switch" />
-        <label for="toggle-switch" class="toggle-label"></label>
-      </div>
       <section id="about-me" class="about-me-section">
-        <div class="particles-overlay"></div>
         <div class="content-container">
           <h2 class="section-title">About Me</h2>
           <div class="profile-container">
@@ -109,7 +104,7 @@
         </div>
       </section>
       <section id="skills">
-        <h1>My Skills</h1>
+        <h2 class="section-title">My Skills</h2>
         <div class="skills-container">
           <div class="skill-card" data-category="Frontend">
             <div class="skill-icon"><i class="fas fa-code"></i></div>
@@ -131,58 +126,63 @@
       </section>
       <section id="projects" class="projects-section">
         <div class="container">
-          <h2 class="section-title">Projects</h2>
+          <h2>My Projects</h2>
           <div class="projects-grid">
-            <div class="project-card">
+            <div class="project">
+              <div class="project-image">
+                <img src="project1.jpg" alt="Project 1" />
+              </div>
               <div class="project-content">
-                <h3 class="project-title">Project Alpha</h3>
-                <p class="project-description">
-                  A revolutionary approach to data visualization.
+                <h2>Project 1</h2>
+                <p>
+                  An innovative web application that revolutionizes task
+                  management. Built with React and Node.js, it features
+                  real-time updates and intuitive UI.
                 </p>
-                <a
-                  href="https://github.com/harsh02it/project-alpha"
-                  class="project-link"
-                  target="_blank"
-                >
-                  Explore <span class="arrow">→</span>
-                </a>
+                <div class="project-links">
+                  <a href="#" class="view-project">View Project</a>
+                  <a href="#" class="view-code">View Code</a>
+                </div>
               </div>
             </div>
-            <div class="project-card">
+            <div class="project">
+              <div class="project-image">
+                <img src="project2.jpg" alt="Project 2" />
+              </div>
               <div class="project-content">
-                <h3 class="project-title">Project Beta</h3>
-                <p class="project-description">
-                  Reimagining user interfaces for the modern web.
+                <h2>Project 2</h2>
+                <p>
+                  A mobile app for fitness enthusiasts. Developed using Flutter,
+                  it provides personalized workout plans and nutrition tracking.
                 </p>
-                <a
-                  href="https://github.com/harsh02it/project-beta"
-                  class="project-link"
-                  target="_blank"
-                >
-                  Explore <span class="arrow">→</span>
-                </a>
+                <div class="project-links">
+                  <a href="#" class="view-project">View Project</a>
+                  <a href="#" class="view-code">View Code</a>
+                </div>
               </div>
             </div>
-            <div class="project-card">
+            <div class="project">
+              <div class="project-image">
+                <img src="project3.jpg" alt="Project 3" />
+              </div>
               <div class="project-content">
-                <h3 class="project-title">Project Gamma</h3>
-                <p class="project-description">
-                  Pushing the boundaries of machine learning.
+                <h2>Project 3</h2>
+                <p>
+                  An e-commerce platform built with Django and Vue.js. Features
+                  include user authentication, product management, and secure
+                  payment integration.
                 </p>
-                <a
-                  href="https://github.com/harsh02it/project-gamma"
-                  class="project-link"
-                  target="_blank"
-                >
-                  Explore <span class="arrow">→</span>
-                </a>
+                <div class="project-links">
+                  <a href="#" class="view-project">View Project</a>
+                  <a href="#" class="view-code">View Code</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section class="socials-section">
-        <h2>Connect with Me</h2>
+        <h2 class="section-title">Connect with Me</h2>
         <div class="socials-container">
           <a
             href="https://github.com/harsh02it"
